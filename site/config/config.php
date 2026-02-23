@@ -6,6 +6,10 @@ return [
   'debug' => true,
   'panel.vue.compiler' => false,
 
+  // === PAYREXX INTEGRATION ===
+  'payrexx.instance' => 'deine-payrexx-instance',  // Test-Instance
+  'payrexx.secret'   => 'dein-api-secret',        // Test-Secret
+
   // 1) Upload hard limit for images (4 MB)
   'hooks' => [
     'file.create:before' => function ($file, $upload) {

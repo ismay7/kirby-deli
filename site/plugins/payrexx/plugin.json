@@ -1,0 +1,7 @@
+{
+  "name": "payrexx-gateway",
+  "author": "ismay7",
+  "description": "Payrexx Payment Gateway for Kirby CMS (5)",
+  "license": "MIT",
+  "version": "0.1.0"
+}
