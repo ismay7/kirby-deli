@@ -1,0 +1,9 @@
+Uuid: wmyz2ovka3dfngmz
+
+----
+
+Template: image
+
+----
+
+Sort: 4

@@ -1,0 +1,81 @@
+Title: Menü
+
+----
+
+Mytitle: Unsere Speisekarten
+
+----
+
+Introtext: Hier finden Sie stets unsere aktuellen Karten.
+
+----
+
+Aboutdinner:
+
+## Abendkarte
+Lassen Sie sich von unseren Klassikern inspirieren. Wir backen jeden Abend frische Pizze wie in Napoli! Oder lieber hausgemachte Pasta nach Rezepten, die eigentlich nur eine Nonna kennen kann?
+
+----
+
+Imgdinner: - file://vdq8qptnuvlm22rb
+
+----
+
+Pdfdinner: - file://uzlv9m1cplbjhrg4
+
+----
+
+Aboutlunch:
+
+## Mittagsmenü
+Von Dienstag bis Freitag kochen wir auch mittags. Das Menü wechselt täglich und entführt Sie gastronomisch aus dem Alltag – wir wünschen Buon Appetito!
+
+----
+
+Imglunch: - file://4yutuetjeayucsvs
+
+----
+
+Pdflunch: - file://g9fazjoml6ozmn3s
+
+----
+
+Aboutseason:
+
+## Saisonkarte
+Wir passen uns der Jahreszeit an und kreieren viermal jährlich spezielle Vor- und Hauptspeisen: "Quattro Stagioni" im wahrsten Sinne des Wortes.
+
+----
+
+Imgseason: - file://uefwjmygjkcqesu3
+
+----
+
+Pdfseason: - file://g9fazjoml6ozmn3s
+
+----
+
+Aboutdrinks:
+
+## Weinkarte
+Unsere Weine sind handverlesene Tropfen feinster Qualität. Gerne beraten wir Sie auch am Tisch und finden gemeinsam das richtige Glas zu Ihrem Teller – A la salute!
+
+----
+
+Imgdrinks: - file://gewwysuwvtpwfwwq
+
+----
+
+Pdfdrinks: - file://g9fazjoml6ozmn3s
+
+----
+
+Imggallery: 
+
+----
+
+Text: 
+
+----
+
+Uuid: wnis4lgaq6dk60zb

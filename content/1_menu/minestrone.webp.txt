@@ -1,0 +1,9 @@
+Uuid: 2n2inefnyemf3g7o
+
+----
+
+Template: image
+
+----
+
+Sort: 4

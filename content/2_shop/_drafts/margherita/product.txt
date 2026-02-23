@@ -1,0 +1,32 @@
+Title: Margherita
+
+----
+
+Description: normale Margherita
+
+----
+
+Variants:
+
+- 
+  name: 32 cm
+  price: 19
+- 
+  name: 40 cm
+  price: 24
+
+----
+
+Price: 19
+
+----
+
+Category: pizza
+
+----
+
+Tax: 
+
+----
+
+Uuid: ewtm1ptx8ghbs6ns

@@ -1,0 +1,9 @@
+Uuid: 3x1ze7f2hhtx7baf
+
+----
+
+Template: image
+
+----
+
+Sort: 7

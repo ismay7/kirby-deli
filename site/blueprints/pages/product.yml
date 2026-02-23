@@ -1,0 +1,32 @@
+title: Product
+
+fields:
+  title:
+    label: "Name"
+    type: text
+    required: true
+  description:
+    label: "Beschreibung"
+    type: textarea
+  variants:
+    label: "Preise & Varianten"
+    type: structure
+    fields:
+      name:
+        label: "Name"
+        type: text
+        required: true
+      price:
+        label: "Preis"
+        type: number
+        required: true
+  category:
+    label: "Kategorie"
+    type: select
+    options:
+      salate: Salate
+      pizza: Pizza
+      pasta: Pasta
+      risotto: Risotto
+      spezial: Spezial
+      getraenke: Getränke

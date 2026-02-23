@@ -1,0 +1,197 @@
+Title: Ristorante La Rotonda
+
+----
+
+Marqueeenabled: false
+
+----
+
+Marqueetext: Betriebsferien: 23.12.25 - 05.01.26
+
+----
+
+Monclosed: true
+
+----
+
+Montimes: 11:30–14:00, 17:30–22.30
+
+----
+
+Monnote: 
+
+----
+
+Tueclosed: false
+
+----
+
+Tuetimes: 11:30–14:00, 17:30–22.30
+
+----
+
+Tuenote: 
+
+----
+
+Wedclosed: false
+
+----
+
+Wedtimes: 11:30–14:00, 17:30–22.30
+
+----
+
+Wednote: 
+
+----
+
+Thuclosed: false
+
+----
+
+Thutimes: 11:30–14:00, 17:30–22.30
+
+----
+
+Thunote: 
+
+----
+
+Friclosed: false
+
+----
+
+Fritimes: 11:30–14:00, 17:30–22.30
+
+----
+
+Frinote: 
+
+----
+
+Satclosed: false
+
+----
+
+Sattimes: 17:30–22.30
+
+----
+
+Satnote: 
+
+----
+
+Sunclosed: true
+
+----
+
+Suntimes: 
+
+----
+
+Sunnote: 
+
+----
+
+Specialopeninghours: 
+
+----
+
+Holidayenabled: false
+
+----
+
+Holidayfrom: 2025-12-23
+
+----
+
+Holidayto: 2026-01-05
+
+----
+
+Holidaynote: Wir sind ab dem 6. Januar 2026 wieder für Sie da.
+
+----
+
+Addressname: Ristorante La Rotonda
+
+----
+
+Addressstreet: Im Sihlhof 1
+
+----
+
+Addresszipcity: 8134 Adliswil
+
+----
+
+Addressphone: +41 43 377 80 77
+
+----
+
+Addressemail: info@restaurant-larotonda.ch
+
+----
+
+Enablepizzacursor: true
+
+----
+
+Enablecrumbtrail: true
+
+----
+
+Cursorcolor: #006351
+
+----
+
+Crumbcolor: #af0029
+
+----
+
+Openinghours:
+
+- 
+  day: mon
+  closed: 'true'
+  times: ""
+  note: ""
+- 
+  day: tue
+  closed: 'false'
+  times: 11:30–14:00, 17:30–22.30
+  note: ""
+- 
+  day: wed
+  closed: 'false'
+  times: 11:30–14:00, 17:30–22.30
+  note: ""
+- 
+  day: thu
+  closed: 'false'
+  times: 11:30–14:00, 17:30–22.30
+  note: ""
+- 
+  day: fri
+  closed: 'false'
+  times: 11:30–14:00, 17:30–22.30
+  note: ""
+- 
+  day: sat
+  closed: 'false'
+  times: 11:30–14:00, 17:30–22.30
+  note: ""
+- 
+  day: sun
+  closed: 'true'
+  times: ""
+  note: ""
+
+----
+
+Addresstitle: 
+
+----
+
+Addressmapsurl: https://www.google.ch/maps/place/Im+Sihlhof+1,+8134+Adliswil/@47.3215674,8.521151,19.33z/data=!4m6!3m5!1s0x479008292f77d41f:0xc2758372965fda9!8m2!3d47.3217649!4d8.5215254!16s%2Fg%2F11rg5_qwyk?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D

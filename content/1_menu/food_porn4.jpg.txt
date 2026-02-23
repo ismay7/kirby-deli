@@ -1,0 +1,9 @@
+Uuid: vdq8qptnuvlm22rb
+
+----
+
+Template: image
+
+----
+
+Sort: 2

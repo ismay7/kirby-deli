@@ -1,0 +1,21 @@
+blueprint: page
+title: Menu
+
+tabs:
+  content:
+    label: "Inhalt"
+    columns:
+      main:
+        width: 2/3
+        sections:
+          fields:
+            type: fields
+            fields:
+              myTitle:
+                label: "Seitentitel"
+                type: text
+                required: true
+              introText:
+                label: "Beschreibungstext"
+                type: textarea
+                size: small

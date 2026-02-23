@@ -1,0 +1,53 @@
+title: Home
+
+tabs:
+  content:
+    label: "Inhalt"
+    columns:
+      main:
+        width: 2/3
+        sections:
+          fields:
+            type: fields
+            fields:
+
+              background:
+                label: "Hintergrundbild (Hero)"
+                type: files
+                query: page.images
+                multiple: false
+                layout: cards
+
+              aboutText1:
+                label: "About Text 1"
+                type: textarea
+                size: small
+
+              aboutText2:
+                label: "About Text 2"
+                type: textarea
+                size: small
+
+              imgGallery:
+                label: "Food-Galerie"
+                type: files
+                multiple: true
+                layout: cards
+                uploads:
+                  template: image
+
+              specialities:
+                label: "Spezialitäten-Text"
+                type: textarea
+                size: small
+
+      sidebar:
+        width: 1/3
+        sections:
+          files:
+            label: "Dateien"
+            type: files
+            info: "{{ file.dimensions }} | {{ file.niceSize }}"
+
+  seo: seo/page
+

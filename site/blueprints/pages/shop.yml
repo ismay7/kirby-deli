@@ -1,0 +1,322 @@
+blueprint: page
+title: Shop
+
+tabs:
+  categories:
+    label: "Delivery-Menü"
+    icon: food
+    sections:
+      salateSection:
+        type: fields
+        fields:
+          salateProducts:
+            label: "Salate"
+            type: structure
+            fields:
+              title:
+                label: "Name"
+                type: text
+                required: true
+              description:
+                label: "Beschreibung"
+                type: textarea
+              variants:
+                label: "Preise & Varianten"
+                type: structure
+                required: true
+                fields:
+                  name:
+                    label: "Name"
+                    type: text
+                  price:
+                    label: "Preis"
+                    type: number
+                    step: .05
+                    required: true
+      pizzaSection:
+        type: fields
+        fields:
+          pizzaProducts:
+            label: "Pizza"
+            type: structure
+            fields:
+              title:
+                label: "Name"
+                type: text
+                required: true
+              description:
+                label: "Beschreibung"
+                type: textarea
+              variants:
+                label: "Preise & Varianten"
+                type: structure
+                required: true
+                fields:
+                  name:
+                    label: "Name"
+                    type: text
+                  price:
+                    label: "Preis"
+                    type: number
+                    step: .05
+                    required: true
+              toppings:
+                label: "Zusätzliche Toppings (z.B. bei Wunschpizza)"
+                type: toggle
+                text:
+                  - "Nein"
+                  - "Ja"
+                width: 1/2
+                default: "Nein"
+          availableToppings:
+                label: "Verfügbare Pizza-Toppings (z.B. für Wunschpizza)"
+                type: structure
+                fields:
+                  name:
+                    label: "Name"
+                    type: text
+                  price32cm:
+                    label: "Preis (32cm)"
+                    type: number
+                    step: .05
+                    required: true
+                    help: "Format: 0.00 (z.B. 2.50)"
+          toppingFactor40cm:
+            label: "Preisfaktor für 40cm-Toppings"
+            type: number
+            step: 0.01
+            default: 1.25
+            required: true
+            help: "(Standard: 1.25)"
+      pastaSection:
+        type: fields
+        fields:
+          pastaProducts:
+            label: "Pasta"
+            type: structure
+            fields:
+              title:
+                label: "Name"
+                type: text
+                required: true
+              description:
+                label: "Beschreibung"
+                type: textarea
+              variants:
+                label: "Preise & Varianten"
+                type: structure
+                required: true
+                fields:
+                  name:
+                    label: "Name"
+                    type: text
+                  price:
+                    label: "Preis"
+                    type: number
+                    step: .05
+                    required: true
+      risottoSection:
+        type: fields
+        fields:
+          risottoProducts:
+            label: "Risotto"
+            type: structure
+            fields:
+              title:
+                label: "Name"
+                type: text
+                required: true
+              description:
+                label: "Beschreibung"
+                type: textarea
+              variants:
+                label: "Preise & Varianten"
+                type: structure
+                required: true
+                fields:
+                  name:
+                    label: "Name"
+                    type: text
+                  price:
+                    label: "Preis"
+                    type: number
+                    step: .05
+                    required: true
+      spezialSection:
+        type: fields
+        fields:
+          spezialProducts:
+            label: "Spezial"
+            type: structure
+            fields:
+              title:
+                label: "Name"
+                type: text
+                required: true
+              description:
+                label: "Beschreibung"
+                type: textarea
+              variants:
+                label: "Preise & Varianten"
+                type: structure
+                required: true
+                fields:
+                  name:
+                    label: "Name"
+                    type: text
+                  price:
+                    label: "Preis"
+                    type: number
+                    step: .05
+                    required: true
+      getraenkeSection:
+        type: fields
+        fields:
+          getraenkeProducts:
+            label: "Getränke"
+            type: structure
+            fields:
+              title:
+                label: "Name"
+                type: text
+                required: true
+              description:
+                label: "Beschreibung"
+                type: textarea
+              variants:
+                label: "Preise & Varianten"
+                type: structure
+                required: true
+                fields:
+                  name:
+                    label: "Name"
+                    type: text
+                  price:
+                    label: "Preis"
+                    type: number
+                    step: .05
+                    required: true
+  shop_settings:
+    label: "Shop-Einstellungen"
+    icon: settings
+    columns:
+      - width: 1/1
+        sections:
+          opening_hours:
+            type: fields
+            fields:
+              shopClosedToggle:
+                label: "Shop sofort schliessen"
+                type: toggle
+                default: false
+                text:
+                  - on: "Shop ist geöffnet"
+                  - off: "Shop ist geschlossen"
+              openingHours:
+                label: "Shop-Öffnungszeiten"
+                help: "Hier kannst du die Öffnungszeiten deines Shops verwalten. Füge für jeden Wochentag die entsprechenden Schichten hinzu."
+                type: structure
+                fields:
+                  day:
+                    label: "Wochentag"
+                    type: select
+                    options:
+                      monday: "Montag"
+                      tuesday: "Dienstag"
+                      wednesday: "Mittwoch"
+                      thursday: "Donnerstag"
+                      friday: "Freitag"
+                      saturday: "Samstag"
+                      sunday: "Sonntag"
+                    width: 1/2
+                  shifts:
+                    label: "Schichten"
+                    type: structure
+                    fields:
+                      from:
+                        label: "Von"
+                        type: time
+                        step: 5
+                        width: 1/2
+                      to:
+                        label: "Bis"
+                        type: time
+                        step: 5
+                        width: 1/2
+          taxRates:
+            type: fields
+            fields:
+              taxRates:
+                label: "Steuersätze"
+                help: "Hier kannst du die Steuersätze für deine Produkte verwalten (z.B. 7.7% für Essen, 2.5% für Getränke)."
+                type: structure
+                fields:
+                  name:
+                    label: "Name des Steuersatzes"
+                    type: text
+                    width: 1/2
+                    required: true
+                  rate:
+                    label: "Steuersatz (%)"
+                    type: number
+                    step: .01
+                    width: 1/2
+                    required: true
+          shipping_zones:
+            type: fields
+            fields:
+              shippingZones:
+                label: "Lieferzonen & Mindestbestellwerte"
+                help: "Hier kannst du Lieferzonen, erlaubte Postleitzahlen und Mindestbestellwerte verwalten."
+                type: structure
+                fields:
+                  name:
+                    label: "Name der Zone"
+                    type: text
+                    width: 1/2
+                    required: true
+                  min_order:
+                    label: "Mindestbestellwert (CHF)"
+                    type: number
+                    width: 1/2
+                    min: 0
+                    required: true
+                  postcodes:
+                    label: "Erlaubte PLZs"
+                    type: tags
+                    help: "PLZs durch Komma trennen (z. B. 8134, 8041)"
+                    required: true
+                  postcodeCities:
+                    label: "PLZ → Ortsname"
+                    type: structure
+                    help: "Weise jeder PLZ einen Ortsnamen zu (z. B. 8134 = Adliswil)"
+                    fields: 
+                      postcode:
+                        label: "PLZ"
+                        type: text
+                        width: 1/2
+                      city:
+                        label: "Ortsname"
+                        type: text
+                        width: 1/2
+          pickupDiscount:
+            type: fields
+            fields:
+              pickupDiscounts:
+                label: "Preisreduktion bei Abholung"
+                help: "Die Presreduktion bei Abholung wird dynamisch pro Artikel berechnet (z.B. 5% oder 2 CHF)."
+                type: structure
+                fields:
+                  value:
+                    label: "Wert"
+                    type: number
+                    step: .05
+                    width: 1/2
+                  type:
+                    label: Typ
+                    type: select
+                    options:
+                      amount: "CHF (fester Betrag)"
+                      percent: "% (Prozentsatz)"
+                    width: 1/2
+                  

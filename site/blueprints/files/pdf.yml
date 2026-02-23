@@ -1,0 +1,7 @@
+title: PDF
+accept:
+  extension: pdf
+fields:
+  alt:
+    type: text
+    label: "Titel (optional)"

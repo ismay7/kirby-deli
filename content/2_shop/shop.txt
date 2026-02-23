@@ -1,0 +1,439 @@
+Title: Delivery
+
+----
+
+Salateproducts:
+
+- 
+  title: Insalata Verde
+  description: der saisonale Grüne
+  variants:
+    - 
+      name: ital. Sauce
+      price: 9
+    - 
+      name: frz. Sauce
+      price: 9
+    - 
+      name: keine Sauce
+      price: 9
+- 
+  title: Insalata Mista
+  description: 'saisonal & kunterbunt'
+  variants:
+    - 
+      name: ital. Sauce
+      price: 10
+    - 
+      name: frz. Sauce
+      price: 10
+- 
+  title: Insalata Caprese
+  description: Tomaten, Mozzarella di Bufala, Basilikum
+  variants:
+    - 
+      name: ital. Sauce
+      price: 16
+- 
+  title: Insalata di Rucola
+  description: Rucola, Parmesan
+  variants:
+    - 
+      name: ital. Sauce
+      price: 13
+- 
+  title: Caesar Salad
+  description: >
+    Eisbergsalat mit Käse, Speck und
+    gerösteten Brotwürfeln
+  variants:
+    - 
+      name: Caesar Dressing
+      price: 15
+    - 
+      name: ohne Sauce
+      price: 15
+- 
+  title: Nüsslisalat
+  description: mit Ei
+  variants:
+    - 
+      name: ital. Sauce
+      price: 13
+    - 
+      name: frz. Sauce
+      price: 13
+    - 
+      name: keine Sauce
+      price: 13
+- 
+  title: Tomatensalat
+  description: 'Tomaten & Zwiebeln'
+  variants:
+    - 
+      name: ital. Sauce
+      price: 10
+    - 
+      name: keine Sauce
+      price: 10
+
+----
+
+Pizzaproducts:
+
+- 
+  title: Wunschpizza
+  description: >
+    Stellen Sie Ihre Pizza selbst zusammen
+    (max. 6 Zutaten).
+  variants:
+    - 
+      name: normal (32 cm)
+      price: 18
+    - 
+      name: gross (40 cm)
+      price: 22
+  toppings: 'true'
+  availabletoppings: [ ]
+- 
+  title: Margherita
+  description: Tomatensauce, Mozzarella
+  variants:
+    - 
+      name: normal (32 cm)
+      price: 18
+    - 
+      name: gross (40 cm)
+      price: 27
+  toppings: 'false'
+  availabletoppings: [ ]
+- 
+  title: Napoli
+  description: Kapern, Sardellen
+  variants:
+    - 
+      name: normal (32 cm)
+      price: 19
+    - 
+      name: gross (40 cm)
+      price: 25
+  toppings: 'false'
+  availabletoppings: [ ]
+- 
+  title: 'Prosciutto & Funghi'
+  description: Schinken, Champignons
+  variants:
+    - 
+      name: normal (32 cm)
+      price: 18
+    - 
+      name: gross (40 cm)
+      price: 24
+  toppings: 'false'
+  availabletoppings: [ ]
+- 
+  title: Hawaii
+  description: Schinken, Ananas
+  variants:
+    - 
+      name: normal (32 cm)
+      price: 19
+    - 
+      name: gross (40 cm)
+      price: 25
+  toppings: 'false'
+  availabletoppings: [ ]
+- 
+  title: Quattro Stagioni
+  description: Artischocken, Oliven, Schinken, Peperoni
+  variants:
+    - 
+      name: normal (32 cm)
+      price: 24
+    - 
+      name: gross (40 cm)
+      price: 32
+  toppings: 'false'
+
+----
+
+Availabletoppings:
+
+- 
+  name: Kochschinken
+  price32cm: 1.5
+  pricefactor: 1.25
+  price40cm: 2
+  price: 1.5
+- 
+  name: Sardellen
+  price32cm: 0.8
+  pricefactor: 1.25
+  price40cm: ""
+  price: 1
+- 
+  name: Kapern
+  price32cm: 0.8
+  pricefactor: 1.25
+  price40cm: ""
+  price: 0.8
+- 
+  name: Champignons
+  price32cm: 1
+  pricefactor: 1.25
+  price40cm: ""
+  price: 1
+- 
+  name: Peperoni
+  price32cm: 1
+  pricefactor: 1.25
+  price40cm: ""
+  price: 1
+- 
+  name: scharfe Salami
+  price32cm: 3
+  pricefactor: 1.25
+  price40cm: ""
+  price: 1.6
+- 
+  name: Rohschinken (Parma)
+  price32cm: 5
+  pricefactor: 1.25
+  price40cm: ""
+  price: 4
+- 
+  name: Gorgonzola
+  price32cm: 3
+
+----
+
+Toppingfactor40cm: 2
+
+----
+
+Pastaproducts:
+
+- 
+  title: Bolognese
+  description: 'Oder wie man in Bologna sagt: "al Ragú"'
+  variants:
+    - 
+      name: Spaghetti
+      price: 22
+    - 
+      name: Penne
+      price: 22
+- 
+  title: Carbonara
+  description: Königin von Rom
+  variants:
+    - 
+      name: Spaghetti
+      price: 25
+    - 
+      name: Penne
+      price: 25
+
+----
+
+Risottoproducts:
+
+- 
+  title: Ai Funghi
+  description: mit Steinpilzen
+  variants:
+    - 
+      name: Risotto
+      price: 23
+- 
+  title: Milanese
+  description: an Tomatensauce
+  variants:
+    - 
+      name: Risotto
+      price: 23
+
+----
+
+Spezialproducts:
+
+- 
+  title: Cordon Bleu
+  description: French classic
+  variants:
+    - 
+      name: normal
+      price: 32
+
+----
+
+Getraenkeproducts:
+
+- 
+  title: Coca-Cola
+  description: What else.
+  variants:
+    - 
+      name: 0.5 l
+      price: 5
+    - 
+      name: 1.5 l
+      price: 8
+- 
+  title: Coca-Cola Zero
+  description: ohne Zucker
+  variants:
+    - 
+      name: 0.5 dl
+      price: 5
+    - 
+      name: 1.5 l
+      price: 7
+
+----
+
+Shopclosedtoggle: false
+
+----
+
+Openinghours:
+
+- 
+  day: monday
+  shifts:
+    - 
+      from: 00:00:00
+      to: 23:55:00
+- 
+  day: tuesday
+  shifts:
+    - 
+      from: 00:00:00
+      to: 23:55:00
+- 
+  day: wednesday
+  shifts:
+    - 
+      from: 00:00:00
+      to: 23:55:00
+- 
+  day: thursday
+  shifts:
+    - 
+      from: 00:00:00
+      to: 23:55:00
+- 
+  day: friday
+  shifts:
+    - 
+      from: 00:00:00
+      to: 23:55:00
+- 
+  day: saturday
+  shifts:
+    - 
+      from: 11:00:00
+      to: 14:00:00
+    - 
+      from: 17:00:00
+      to: 21:45:00
+- 
+  day: sunday
+  shifts: [ ]
+
+----
+
+Taxrates:
+
+- 
+  name: Lieferung/Abholung
+  rate: 2.6
+
+----
+
+Shippingzones:
+
+- 
+  name: Zone 1
+  min_order: 25
+  postcodes: 8134, 8041
+  postcodecities:
+    - 
+      postcode: "8134"
+      city: Adliswil
+    - 
+      postcode: "8041"
+      city: Zürich-Leimbach
+  city: ""
+- 
+  name: Zone 2
+  min_order: 30
+  postcodes: 8038, 8802
+  postcodecities:
+    - 
+      postcode: "8038"
+      city: Zürich-Wollishofen
+    - 
+      postcode: "8802"
+      city: Kilchberg
+  city: ""
+- 
+  name: Zone 3
+  min_order: 40
+  postcodes: 8136, 8135
+  postcodecities:
+    - 
+      postcode: "8136"
+      city: Gattikon
+    - 
+      postcode: "8135"
+      city: Langnau a. A.
+  city: ""
+- 
+  name: Zone 4
+  min_order: 50
+  postcodes: 8803, 8800
+  postcodecities:
+    - 
+      postcode: "8803"
+      city: Rüschlikon
+    - 
+      postcode: "8802"
+      city: Thalwil
+  city: ""
+
+----
+
+Pickupdiscounts:
+
+- 
+  value: 5
+  type: percent
+
+----
+
+Mytitle: 
+
+----
+
+Introtext: 
+
+----
+
+Getrankeproducts:
+
+- 
+  title: Coca-Cola
+  description: what else
+  variants:
+    - 
+      name: 1.5 l
+      price: 8
+
+----
+
+Text: 
+
+----
+
+Uuid: x4itfquoubpwz93b
